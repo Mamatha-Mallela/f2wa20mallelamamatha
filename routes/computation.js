@@ -7,7 +7,8 @@ router.get('/', function(req, res, next) {
     let roundValue = Math.round(ramdomNumber);
     let froundValue = Math.fround(ramdomNumber);
 
-  res.send(`fround applied to  ${ramdomNumber}  is  ${froundValue} <br>
+  res.send(`Random Number generated using random function is ${ramdomNumber} <br>
+            fround applied to  ${ramdomNumber}  is  ${froundValue} <br>
             round applied to  ${ramdomNumber}  is  ${roundValue}`);
 });
 
